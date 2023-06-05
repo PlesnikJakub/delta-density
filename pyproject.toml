@@ -1,6 +1,6 @@
 [project]
 name = "delta_density"
-version = "0.0.1"
+version = "1.0.0"
 authors = [
   { name="Jakub Plesnik", email="jakub.plesnik@gmail.com" },
 ]
@@ -12,6 +12,10 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
 [project.urls]
 "Homepage" = "https://github.com/PlesnikJakub/delta-density"
